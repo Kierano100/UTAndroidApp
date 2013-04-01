@@ -135,7 +135,7 @@ Remember that choice.
 
 https://github.com/k3ypad/UTAndroidApp
 
-##Step 3: Running the UT App in Eclipse##
+###Step 3: Running the UT App in Eclipse###
 
 Open up the SDK by opening the ADT-Bundle folder, opening the eclipse folder and launching the portable executable. Once in you will choose a workspace, make it anywhere you want.
 Now when you are in the IDE go to file, import and navigate to where you unzipped the UTAndroidApp folder. 
@@ -143,7 +143,7 @@ Click on the android app folder and select ok. Then click on the MainActivity pr
 It should be listed in the project overview tab on the left. Select it and go to to Project->Clean. Also run it in an emulator to make sure it works.
 Check the Android.dev website for emulator help.
 
-##Step 4: Editing the Functional Code##
+###Step 4: Editing the Functional Code###
 The first section of code, and the only functional change, is the connection to your server.
 This is in the ArticleManager class on line 78. Where it says “tfa.dummy.ie” swap with your Wordpress server address. 
 The App should now show articles from your server in the home view.
